@@ -47,6 +47,15 @@ hr{
 	padding: 1em 1em;
 }
 
+.icon{
+	padding: 1em 1em;
+}
+
+.icon:hover{
+	opacity: .5;
+}
+
+
 #active{
     text-decoration: underline;
 }
@@ -55,7 +64,7 @@ hr{
 	width: 100%;
 	height: 100%;
 	overflow: scroll;
-	background: rgb(206, 204, 204);
+	background: #e5e5e5;
 }
  
 /* traffic 1 */
@@ -141,7 +150,11 @@ hr{
 	opacity: .5;
 }
 
-
+.blurb{
+	font-family: 'Courier New', Courier, monospace;
+	padding: 0em 3em 3em 3em;
+	font-size: 14px;
+}
 
 #n13_6 {
 	background-image: url("https://s3-alpha-sig.figma.com/img/defa/d8f6/9ed652e5841764b582ea4814b6b1e263?Expires=1600646400&Signature=MZBq7ZfzzaottuB3sv9-JSGoQw2UyjDkElUAZt-hqnlMlMVc8uF8biIli6hbLg9IbWqbUbSSHnbqmH9ZuU2kADoRL1Y~v-Gp~BOuweBKxgIe2rvnLGWw6-zdhFgIYVRh6uasWpcuIESqIgq1lEDIemUphtMAZFmsIH9PeFBTfTk9~imKwLTbkhzl4z3PE8Y8tbdwUgWTMLPZtVEcZr~e~ZHlbVuym~BZnSqYg-2nxd3FboZoBNCIGdZcMN4ln4gYZjf2uEU9QrVGR3xxNbU7J3mX83twTQiaEZcHbRnwQ2aXegJfZWHiAwQHcTcP5gSRQE5thkrDEmr3Nm-z~viMsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
