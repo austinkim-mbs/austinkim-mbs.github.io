@@ -69,7 +69,7 @@ hr{
  
 /* traffic 1 */
 #n10_0 {
-	background-image: url("https://s3-alpha-sig.figma.com/img/24ea/df59/8bedd4019e9ad88fe974c484c95fd61e?Expires=1600646400&Signature=cgm~5Vo7bMH3F4argw1VXDeGQbzNWP1S6ikiId9rXCn9Sr8UTlSeu7Dq6LtUjjxyZfEyWdLBQED2Uh27nZpBgtVb~ysnBG6E2Dxj3qidZz8rMr3JId7MJLUYpW6~X4eH0atBa-vv1~a3LF~HLlpbj0fdC7~s9rLtwwp1XnJKhK6W~8TTU7Bkej2ZTuXdclcBU3RQ-3e8u3Yn3Hib5Ti-RDEhrHxJjIbXkV2cv1jjRrw6Yc-xTtf-gxrkdzksVediUzT9NvKBt~WepPrAv7VTIis80JDSmNRLlCaJP9K5dkJghHlIEbd~GQ6SqYMlhLF7CVmowFsLyXkPmG8vKUnjcg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+	background-image: url("./static/traffic.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -157,12 +157,12 @@ hr{
 }
 
 #n13_6 {
-	background-image: url("https://s3-alpha-sig.figma.com/img/defa/d8f6/9ed652e5841764b582ea4814b6b1e263?Expires=1600646400&Signature=MZBq7ZfzzaottuB3sv9-JSGoQw2UyjDkElUAZt-hqnlMlMVc8uF8biIli6hbLg9IbWqbUbSSHnbqmH9ZuU2kADoRL1Y~v-Gp~BOuweBKxgIe2rvnLGWw6-zdhFgIYVRh6uasWpcuIESqIgq1lEDIemUphtMAZFmsIH9PeFBTfTk9~imKwLTbkhzl4z3PE8Y8tbdwUgWTMLPZtVEcZr~e~ZHlbVuym~BZnSqYg-2nxd3FboZoBNCIGdZcMN4ln4gYZjf2uEU9QrVGR3xxNbU7J3mX83twTQiaEZcHbRnwQ2aXegJfZWHiAwQHcTcP5gSRQE5thkrDEmr3Nm-z~viMsg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+	background-image: url("./static/ncbi.png");
 }
 
 /* UMN Square 3 */
 #n13_8 {
-	background-image: url("https://s3-alpha-sig.figma.com/img/1f94/95e6/5795e08a1481b3e64fad9b03be0ec070?Expires=1600646400&Signature=JuLzvWB0UJEs7ISy7MiPhR6t0uSETKrRZf2Dx1Da70ViJdLRdNGK0p3g6qQMgfmSFf7Y2Zk3virMKX8wJ0vfvmnVABR8uJiYqzUDR1pVNoTOeR-BQ4PaXELeJI-zL4LjONDb7ikUj6uA0jIXU--3QIiHj9gmVmUjRcUOjsKORQmGlCWMZUEb4SoNuRrIYRLrLbyrO1nAV25JNa7RFqmJmMyeV-EqHre0LmGmAcLLjvAEPelvfbrTCYN29KSkvnWTdlcAlJwmuj3DNa7Jp1u7BiDXeto7--otnW0U3blQv6-ovCfptE3-Ontyr-WwW0llfl00h6S03XPcfW9AWncQxQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+	background-image: url("./static/foodtree.png");
 }
 
 /* Rectangle 4 */
@@ -181,7 +181,7 @@ hr{
 
 /* GitHub-Mark-32px 1 */
 #n21_0 {
-	background-image: url("https://s3-alpha-sig.figma.com/img/fabe/53eb/72f9b6d3d47cd95aff31ffc45c2fdbf8?Expires=1600646400&Signature=eA0X4PcDxjTLSDTIekG43mJbEV3cpZwmpYzwVS982WfMQCGfjLbTfvYsJnD0NcYQqThT56w-I-38Msmzd7IaspZYIMxYiKLxsh7iTdTrH536OzzBhjeOECz0stHYJRQWPhKikM37z~vOGK4eeAa3cT4Df-lcgw2mRnFud0U3JwwGl6nn8OwWVLP37IQP9wxJVqs7sDkXwJinvgpmHy~xf2m4kYdGsL-dDphNsoean-XrKuJXiz6N7PRgWPIjY5tQ80TNi7CERyhENbTZ~D~ty-dus~ocToQ6fe-YyNiuKXLOyI~NVypMIJXoHEmcbz1TZdV7bauABuzvHmAvVcd6KQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+	background-image: url("./static/GitHub-Mark/GitHub-Mark/PNG/GitHub-Mark-32px.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 4px;
