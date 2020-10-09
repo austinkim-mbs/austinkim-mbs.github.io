@@ -98,6 +98,12 @@ hr{
 	background: #e5e5e5;
 }
  
+#science {
+	list-style-type: circle;
+	display: list-item;
+	margin: 0.5em 1.5em;
+}
+
 /* traffic 1 */
 #n10_0 {
 	background-image: url("./static/trees.jpg");
