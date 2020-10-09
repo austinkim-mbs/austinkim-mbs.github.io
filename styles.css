@@ -8,7 +8,7 @@ body{
 }
 
 #header{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: black;
@@ -27,14 +27,16 @@ body{
 ul > li{
     display: inline;
     list-style-type: none;
-    margin: 0em 5em;
+    margin: 0em 2.5em;
 }
+
 hr{
 	margin: 0em;
 }
 
 #projects{
-	padding: 0em 3em;
+	
+	padding: 0em 2.5em;
 	font-family: Michroma;
 	font-size: 36px;
 	font-weight: 400;
@@ -60,22 +62,33 @@ hr{
     text-decoration: underline;
 }
 /* Desktop - 1 */
-#n6_0 {
+
+#padding_div {
 	width: 100%;
-	height: 100%;
 	overflow: scroll;
+	background: #709270;
+	
+
+}
+
+#n6_0 {
+	margin: auto;
+	width: 60%;
+	/* height: 100%; */
+	/* overflow: scroll; */
 	background: #e5e5e5;
 }
  
 /* traffic 1 */
 #n10_0 {
-	background-image: url("./static/traffic.jpg");
+	background-image: url("./static/trees.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 100%;
 	top: 216px;
 	height: 339px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Austin Kim */
@@ -118,11 +131,12 @@ hr{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	width: 341px;
-	height: 222px;
-	margin: 0em 1em;
+	width: 263px;
+	height: 175px;
+	margin: 0.5em 1em;
 	display: inline-flex;
 	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 /* .project_tile:hover{
@@ -153,7 +167,7 @@ hr{
 .blurb{
 	font-family: 'Courier New', Courier, monospace;
 	padding: 0em 3em 3em 3em;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #n13_6 {
