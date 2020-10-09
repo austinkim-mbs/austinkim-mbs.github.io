@@ -27,7 +27,7 @@ body{
 ul > li{
     display: inline;
     list-style-type: none;
-    margin: 0em 2.5em;
+    margin: 0em 3em;
 }
 
 hr{
@@ -70,6 +70,25 @@ hr{
 	
 
 }
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 5%5;
+	background: #f7f7f7;
+	z-index: 1;
+	margin: auto;
+	padding: 1em;
+}
+
+.sticky + .wrapper {
+	padding-top: 250px;
+  }
 
 #n6_0 {
 	margin: auto;

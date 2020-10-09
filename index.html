@@ -5,21 +5,35 @@
   <link rel="stylesheet" href="./styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
+    // scroll logic - deals with opacity and header stickiness
       window.onload = function() {
         let traffic_banner = document.querySelector("#n10_0");
+        let  header = document.querySelector('#header');
         const traffic_height = $("#n10_0").height();
         const project_height = $("#projects").height();
 
+        // sticky - taken from https://www.w3schools.com/howto/howto_js_sticky_header.asp
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        var sticky = header.offsetTop;
+
         window.onscroll = function()
-        {
-            console.log(window.scrollY); 
+          { 
+            myFunction();
+
             if(window.scrollY < 150){
               // $("#n10_0").height(traffic_height - window.scrollY);
               $("#n10_0").css('opacity',(300-window.scrollY)/300);
             }
-            
-        }
+          }
       }
+
   </script>
 </head>
 <body>
@@ -33,20 +47,17 @@
       <ul id="header">
         <li><a href="about.html">Portfolio</a></li>
         <li><a href="./oops.html">Resume</a></li>
-        <li><a href="./oops.html">Contact</a></li>
         <li id="active"><a href="">About</a></li>
       </ul>
     </div>
-    <!-- traffic 1 -->
-    <div class="left top rectangle" id="n10_0"></div>
-  
-    <!-- Line 1 -->
-    <img src="./static/traffic.jpg" width="1440" height="0" class="left top line" id="n13_4">
+    <div class='wrapper'>
+          <!-- tree 1 -->
+      <div class="left top rectangle" id="n10_0"></div>
     <!-- Projects -->
     <div id="projects">
           <div class="blurb">
           <h3>Hello World!</h3>
-          <p>Welcome to my corner.</p>
+          <p>Welcome to my corner 🌲🌲🌲</p>
             <h4>About Me</h4>
   
           <p>Computer Science and Biology graduate from Macalester College. I enjoy building interesting things from scratch and 
@@ -73,6 +84,8 @@
     </div>
       
   </div>
+    </div>
+    
 
 </div>
 
