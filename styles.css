@@ -65,10 +65,9 @@ hr{
 
 #padding_div {
 	width: 100%;
-	overflow: scroll;
+	min-height: 100vh;
+	overflow-x: hidden;
 	background: #709270;
-	
-
 }
 
 .wrapper {
@@ -79,7 +78,7 @@ hr{
 .sticky {
 	position: fixed;
 	top: 0;
-	width: 5%5;
+	width: 100%;
 	background: #f7f7f7;
 	z-index: 1;
 	margin: auto;
@@ -93,6 +92,8 @@ hr{
 #n6_0 {
 	margin: auto;
 	width: 60%;
+	min-width: 500px;
+
 	/* height: 100%; */
 	/* overflow: scroll; */
 	background: #e5e5e5;
