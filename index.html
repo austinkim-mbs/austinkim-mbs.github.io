@@ -36,15 +36,51 @@
           }
 
         gsap.registerPlugin(ScrollTrigger);
-        gsap.from(".blurb > #stagger_group", {
+        gsap.from("#stagger_group1", {
           opacity: 0,
           y: 40,
           duration: 0.6,
           ease: "power1.out",
           stagger: 0.75,
           scrollTrigger: {
-            trigger: ".blurb",
+            trigger: "#stagger_group1",
             start: "top 80%",
+            toggleActions: "play none none none"
+          }
+        })
+        gsap.from("#stagger_group2", {
+          opacity: 0,
+          y: 40,
+          duration: 0.6,
+          ease: "power1.out",
+          stagger: 0.75,
+          scrollTrigger: {
+            trigger: "#stagger_group2",
+            start: "top 80%",
+            toggleActions: "play none none none"
+          }
+        })
+        gsap.from("#stagger_group3", {
+          opacity: 0,
+          y: 40,
+          duration: 0.6,
+          ease: "power1.out",
+          stagger: 0.75,
+          scrollTrigger: {
+            trigger: "#stagger_group3",
+            start: "top 80%",
+            toggleActions: "play none none none"
+          }
+        })
+        gsap.from("#stagger_group4", {
+          opacity: 0,
+          y: 40,
+          duration: 0.6,
+          ease: "power1.out",
+          stagger: 0.75,
+          scrollTrigger: {
+            trigger: "#stagger_group4",
+            start: "top 90%",
             toggleActions: "play none none none"
           }
         })
@@ -74,11 +110,11 @@
           <div class="blurb">
           <p>🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲🌲</p>
           <h4>About Me</h4>
-          <div id="stagger_group">
+          <div id="stagger_group1">
           <p>Hey! I'm Austin, a fullstack software engineer.
           </p>
           </div>
-          <div id="stagger_group">
+          <div id="stagger_group2">
           <p>
               I've always enjoyed working with data - I originally planned on working in bioinformatics 
               and spent time working at data-heavy biology labs (gastrodata @ Knights Lab and human genetics @ National Human Genome Research Institute),
@@ -88,7 +124,7 @@
             When I'm not working, I enjoy weightlifting, hiking, cooking, and brief forays into random hobbies. 
           </p>
           </div>
-          <div id="stagger_group">
+          <div id="stagger_group3">
           <h4>Contributions in Scientific Papers:</h4>
           <ul>
               <li id="science">
@@ -105,7 +141,7 @@
               </li>
           </ul>
           </div>
-          <div id="stagger_group">
+          <div id="stagger_group4">
           <h4>Contact</h4>
           Contact information is found on my resume - feel free to reach out there.</div>
   
