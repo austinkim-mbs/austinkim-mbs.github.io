@@ -35,8 +35,7 @@ hr{
 }
 
 #projects{
-	
-	padding: 0em 2.5em;
+	padding: 0em 2.5em 3em 2.5em;
 	font-family: Michroma;
 	font-size: 36px;
 	font-weight: 400;
@@ -93,9 +92,6 @@ hr{
 	margin: auto;
 	width: 60%;
 	min-width: 500px;
-
-	/* height: 100%; */
-	/* overflow: scroll; */
 	background: #e5e5e5;
 }
  
@@ -193,7 +189,7 @@ hr{
 .blurb{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	/* font-family: 'Courier New', Courier, monospace; */
-	padding: 0em 3em 3em 3em;
+	padding: 0em 3em 0em 3em;
 	font-size: 16px;
 }
 
